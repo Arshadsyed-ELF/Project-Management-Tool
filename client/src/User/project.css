@@ -1,0 +1,41 @@
+/* AddClassroom.css */
+.add-classroom-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-classroom-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-classroom-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-classroom-container input,
+  .add-classroom-container textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-classroom-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .add-classroom-container button:hover {
+    background-color: #0056b3;
+  }
+  

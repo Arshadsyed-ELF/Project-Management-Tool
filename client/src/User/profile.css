@@ -1,0 +1,26 @@
+/* StudentProfile.css */
+
+.student-profile {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 32px;
+    margin-top: 120px;
+    margin-left: 30%;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to left, rgba(235, 7, 186, 0.776),rgba(238, 7, 149, 0.74));
+    height: 180px;
+  }
+  
+  .student-profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .student-profile p {
+    font-size: 25px;
+    margin-bottom: 8px;
+  }
+  
+  /* You can add more styles as needed to customize the card further */
+  

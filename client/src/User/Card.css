@@ -1,0 +1,26 @@
+Card.css
+.card {
+    width: 400px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin:250px;
+  }
+  
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  

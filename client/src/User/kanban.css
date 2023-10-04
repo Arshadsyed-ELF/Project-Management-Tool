@@ -1,0 +1,122 @@
+/* Kanban board container */
+.kanban-board {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Kanban board title */
+  .kanban-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Kanban columns container */
+  .kanban-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Kanban column */
+  .kanban-column {
+    flex: 1;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  }
+  
+  /* Kanban column title */
+  .kanban-column-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Task card */
+  .kanban-task-card {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Subtask container */
+  .kanban-subtasks {
+    margin-top: 10px;
+  }
+  
+  /* Subtask item */
+  .kanban-subtask {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  /* Input for new subtask */
+  .kanban-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  /* Button styles */
+  .kanban-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .kanban-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styles as needed */
+/* Subtask item */
+.kanban-subtask {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+  
+  /* Checkbox styles */
+  .kanban-subtask input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Subtask text */
+  .kanban-subtask p {
+    flex: 1;
+    margin: 0;
+    word-break: break-word; /* Allow long subtask names to break onto a new line */
+  }
+  
+  /* Button to delete subtask */
+  .kanban-subtask .kanban-delete-subtask-button {
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  
+  .kanban-subtask .kanban-delete-subtask-button:hover {
+    background-color: #e64141;
+  }
+    
